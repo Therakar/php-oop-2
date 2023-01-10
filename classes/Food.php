@@ -11,17 +11,17 @@
         public $allergens;
 
         function __construct($animal, string $brand, $type, float $price, $image, string $flavor, float $quantity, int $calories, string $proteins, string $fats, string $fibers, array $allergens)
-    {
-        parent::__construct($animal, $brand, $type , $price , $image);
-        
-        $this->flavor = $flavor; 
-        $this->quantity = $quantity;
-        $this->calories = $calories;
-        $this->proteins = $proteins;
-        $this->fats = $fats;
-        $this->fibers = $fibers;
-        $this->allergens = $allergens;
+        {
+            parent::__construct($animal, $brand, $type , $price , $image);
+            
+            $this->flavor = $flavor; 
+            $this->quantity = $quantity;
+            $this->calories = $calories;
+            $this->proteins = $proteins;
+            $this->fats = $fats;
+            $this->fibers = $fibers;
+            $this->allergens = $allergens;
 
-    }
+        }
     }
 ?>

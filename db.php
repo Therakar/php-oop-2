@@ -15,4 +15,9 @@
         new Food([$cat], "Gourmet", "secco", 10.90, "img", "Coniglio", 1.5, 800, 30, 45, 10, ["glutine", "coniglio"]),
         new Food([$cat], "Gourmet", "umido", 2.90, "img", "Salmone", 0.5, 100, 20, 35, 1, ["glutine", "pesce"]),
     ];
+
+    $products_cleaning = [
+        new Cleaning([$cat], "Nature Pet", "classic", 10.00, "img", 300, "pelo corto", "miele"),
+        new Cleaning([$dog], "Nature Pet", "a secco", 15.30, "img", 500, "pelo lungo", "cocco"),
+    ];
 ?>
