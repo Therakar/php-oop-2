@@ -20,4 +20,9 @@
         new Cleaning([$cat], "Nature Pet", "classic", 10.00, "img", 300, "pelo corto", "miele"),
         new Cleaning([$dog], "Nature Pet", "a secco", 15.30, "img", 500, "pelo lungo", "cocco"),
     ];
+
+    $products_toys = [
+        new Toys([$cat], "CatGames", "gomitolo", 5.00, "img", "spago"),
+        new Toys([$dog], "DogGames", "osso di gomma", 10.00, "img", "gomma")
+    ]
 ?>
