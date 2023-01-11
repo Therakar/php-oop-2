@@ -24,5 +24,10 @@
     $products_toys = [
         new Toys([$cat], "CatGames", "gomitolo", 5.00, "img", "spago"),
         new Toys([$dog], "DogGames", "osso di gomma", 10.00, "img", "gomma")
+    ];
+
+    $products_kennel = [
+        new Kennel([$cat, $dog], "petSleep", "amaca per animali", 50.00, "img", "stoffa", ["S", "M", "L"]),
+        new Kennel([$cat, $dog], "petSleep", "cuscino per animali", 25.00, "img", "stoffa", ["S", "M", "L"])
     ]
 ?>
