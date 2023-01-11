@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 100px;
+}
+
+.container{
+    margin: auto;
+    max-width: 75rem;
+    
+}
+
+section{
+    width: 100%;
+    display: flex;
+    margin-bottom: 6.25rem;
+    margin-top: 6.25rem;
+}

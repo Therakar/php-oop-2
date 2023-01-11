@@ -3,14 +3,12 @@
 
     class Kennel extends Product {
         public $material;
-        public $size;
 
-        function __construct($animal, string $brand, $type, float $price, $image, string $material, array $size)
+        function __construct($animal, string $brand, $type, float $price, $image, string $material)
         {
             parent::__construct($animal, $brand, $type , $price , $image);
 
             $this->material = $material;
-            $this->size = $size;
         }
     }
 ?>
